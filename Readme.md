@@ -4,7 +4,7 @@
 
  
 
-## LiveLink -- [Crypto](https://6342dd5d181c6e2a2a89a1bb--marketing-home-page.netlify.app/)
+## LiveLink -- [Crypto](https://crypto-landing-page-yashshamnani.netlify.app/)
 
 
 
