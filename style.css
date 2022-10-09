@@ -1,101 +1,98 @@
-* {
-   box-sizing: border-box;
-   padding: 0;
+*{
    margin: 0;
-    
+   padding: 0;
+   outline: 0;
 }
 
-body {
-   overflow: hidden;
-   height: 100vh;
+body{
    font-family: "Montserrat", sans-serif;
+   overflow: hidden;
 }
 
-
-/* Navbar */
-
- 
 .navbar{
    background-color: #1d1d1d;
-  color: white;
-  display: flex;
-  align-items: center;
-  padding: 2px 60px;
-}
-.logo{
-   margin-right: 10px;
-   /* border-right: 2px solid white; */
-}
-.line {
-   height: 4rem;
-   width: .2rem;
-   background-color: #fff;
-   margin: 0 3rem;
-}
-.list{
+   color: #fff;
    display: flex;
-   margin: 2rem;
+   align-items: center;
+   padding: 10px 50px;
+}
+.line{
+   width: 112px;
+   height: 47px;
+   border-right: 2px solid #fff; 
+   position: absolute;
+   left: 140px;
+   }
+
+.list{
+   width: 600px;
+   position: absolute;
+   left: 300px;
+   top: 28px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
    list-style-type: none;
 }
-.list-item{
-   margin: 2rem;
-   font-size: 18px;
-}
-.button-small {
-   border-radius: 9px;
-   padding: 11px;
-   background-color: #cd39c3;
-   width: 180px;
-   color: white;
-   margin-left: 200px;
-   font-size: 18px;
 
+.list-item:first-child::after{
+   display: inline-block;
+   content: ">";
+   transform: rotate(90deg);
+   position: relative;
+   left: 5px;
+   top: 1px;
 }
- 
-  .hero{
+.button-small{
+   position: absolute;
+   left: 1200px;
+   top: 26px;
+   padding: 7px 20px;
+   border: none;
+   border-radius: 3px;
+   background-color: #ba0cc5;
+   color: #fff;
+}
+
+.hero{
    background-image: url(assets/bg.png); 
 
    background-repeat: no-repeat; 
    
-   /* background-position-y: 0px; */
-   background-size: 100vw 80vh; 
+   background-position-y: 0px;
+   background-size: 100vw 90vh; 
    height: 100vh;
    display: flex;
    flex-direction: column;
    align-items: center;
    justify-content: center;
- 
-   /* padding-top: 250px; */
+   margin-top: 0px;
 }
- 
+
 .hero-heading{
    font-size: 60px;
-   text-align: center;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  position: absolute;
+  bottom: 330px;
+  width: 900px;
+}
+
+.hero-description{
    color: #fff;
-   font-weight: 750;
+   font-weight: 600;
    position: absolute;
    bottom: 300px;
-   width: 900px;
-
+   font-size: 20px;
 }
- .hero-description{
 
-   color: #fff;
-   font-weight: 500;
-   position: absolute;
-   bottom: 250px;
-   font-size: 25px;
- }
 .button-large{
-   border-radius: 10px;
-   padding: 11px;
+   padding: 15px 20px;
+   color: #fff;
+   font-weight: 600;
+   background-color: #ba0cc5;
+   font-size: 20px;
    border: none;
-   background-color: #cd39c3;
-   width: 280px;
-   color: white;
-   height: 70px;
-   font-size: 22px;
-   font-weight: 500;
-   position: absolute;
-   bottom: 100px;
+   border-radius: 10px;
 }
