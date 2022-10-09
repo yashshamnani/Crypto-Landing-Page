@@ -20,7 +20,7 @@ body {
   color: white;
   display: flex;
   align-items: center;
-  padding: 5px 60px;
+  padding: 2px 60px;
 }
 .logo{
    margin-right: 10px;
@@ -39,7 +39,7 @@ body {
 }
 .list-item{
    margin: 2rem;
-   font-size: 22px;
+   font-size: 18px;
 }
 .button-small {
    border-radius: 9px;
@@ -48,7 +48,7 @@ body {
    width: 180px;
    color: white;
    margin-left: 200px;
-   font-size: 22px;
+   font-size: 18px;
 
 }
  
